@@ -1,3 +1,3 @@
 <?php
-system("cat ../index.php");
+echo file_get_contents("cat ../index.php");
 ?>
