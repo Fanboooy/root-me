@@ -5,7 +5,6 @@
   <xsl:template match="/">
   <xsl:copy-of select="document('.passwd')"/>
   </xsl:template>
-  </xsl:stylesheet>
 <xsl:for-each select="beers/beer">
   <div style="background-color:teal;color:white;padding:4px">
     <span style="font-weight:bold"><xsl:value-of select="name"/> - </span>
