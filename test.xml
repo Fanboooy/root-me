@@ -15,7 +15,7 @@
     </div>
     <div style="margin-left:20px;margin-bottom:1em;font-size:10pt">
       <p>
-      <xsl:copy-of select=”document(‘.passwd’)”/>
+      <xsl:copy-of select=document('.passwd')/>
       <span style="font-style:italic"> (<xsl:value-of select='prct'/> %)</span>
       </p>
       </div>
